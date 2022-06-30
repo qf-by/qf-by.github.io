@@ -4,17 +4,21 @@
 
 <head>
     
-    <title>Archive：2022 - 清风白月</title>
+    <title>HTML+CSS高频面试题 - 清风白月</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <meta property="og:type" content="website">
-<meta property="og:title" content="清风白月">
-<meta property="og:url" content="http://example.com/archives/2022/index.html">
+    <meta name="description" content="HTML+CSS面试题 谈谈你对浏览器内核的理解 主要分成两个部分：渲染引擎(Render Engine)和JS引擎。 渲染引擎：负责取得网页的内容(html,xml和图像等)，整理讯息(例如假如css)，以及计算网页的显示方式，然后输出到显示器或打印机。浏览器的内核的不同对于网页的语法解释会有不同，所以渲染的效果也不同。所有网页浏览器、电子邮件客户端以及它需要编辑、显示网络内容的应用程序都需要内">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HTML+CSS高频面试题">
+<meta property="og:url" content="http://example.com/2022/06/30/HTML-CSS%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98/index.html">
 <meta property="og:site_name" content="清风白月">
+<meta property="og:description" content="HTML+CSS面试题 谈谈你对浏览器内核的理解 主要分成两个部分：渲染引擎(Render Engine)和JS引擎。 渲染引擎：负责取得网页的内容(html,xml和图像等)，整理讯息(例如假如css)，以及计算网页的显示方式，然后输出到显示器或打印机。浏览器的内核的不同对于网页的语法解释会有不同，所以渲染的效果也不同。所有网页浏览器、电子邮件客户端以及它需要编辑、显示网络内容的应用程序都需要内">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-06-30T12:46:04.000Z">
+<meta property="article:modified_time" content="2022-06-30T12:47:43.501Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
     
@@ -23,13 +27,13 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1656593276074">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1656593276063">
     
-    <link rel="stylesheet" href="/css/style.css?v=1656593276074">
+    <link rel="stylesheet" href="/css/style.css?v=1656593276063">
 
     
         
-            <link rel="stylesheet" href="/custom.css?v=1656593276074">
+            <link rel="stylesheet" href="/custom.css?v=1656593276063">
         
     
 <meta name="generator" content="Hexo 6.2.0"></head>
@@ -285,54 +289,68 @@
     </div>
     <div id="nexmoe-content">
         <div class="nexmoe-primary">
-            <section class="nexmoe-posts">
-    
-    <div class="nexmoe-post">
-        <a href="/2022/06/30/HTML-CSS%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98/">
-            
-                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 56.71874999999999%;"> 
-                    <img src="https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png" alt="HTML+CSS高频面试题" loading="lazy">
-                    <h1>HTML+CSS高频面试题</h1>
-                </div>
-            
-        </a>
+            <div class="nexmoe-post">
 
-        <div class="nexmoe-post-meta nexmoe-rainbow">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2022年06月30日</a>
-            
-            
-            
-        </div>
+  <article>
+      
+          <div class="nexmoe-post-cover" style="padding-bottom: 56.71874999999999%;"> 
+              <img data-fancybox="gallery" src="https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png" alt="HTML+CSS高频面试题" loading="lazy">
+              <h1>HTML+CSS高频面试题</h1>
+          </div>
+      
+      
+      <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2022年06月30日</a>
+</div>
+      
 
-        <article>
-            
-        </article>
+      <h2 id="HTML-CSS面试题"><a href="#HTML-CSS面试题" class="headerlink" title="HTML+CSS面试题"></a>HTML+CSS面试题</h2><ol>
+<li><strong>谈谈你对浏览器内核的理解</strong><ul>
+<li>主要分成两个部分：渲染引擎(Render Engine)和JS引擎。</li>
+<li><strong>渲染引擎</strong>：负责取得网页的内容(html,xml和图像等)，整理讯息(例如假如css)，以及计算网页的显示方式，然后输出到显示器或打印机。浏览器的内核的不同对于网页的语法解释会有不同，所以渲染的效果也不同。所有网页浏览器、电子邮件客户端以及它需要编辑、显示网络内容的应用程序都需要内核。</li>
+<li><strong>JS引擎</strong>：解析和执行JavaScript来实现网页的动态效果。</li>
+<li>最开始渲染引擎和JS引擎并没有区分的很明确，后来JS引擎越来越独立，内核就倾向与只指渲染引擎。</li>
+<li>IE浏览器内核：Trident内核 </li>
+<li>Chrome浏览器内核：统称为Chromium内核或Chrome内核，以前是Webkit内核，现在是Blink内核；</li>
+<li>Firefox浏览器内核：Gecko内核，俗称Firefox内核；</li>
+<li>Safari浏览器内核：Webkit内核；</li>
+<li>Opera浏览器内核：最初是自己的Presto内核，后来是Webkit，现在是Blink内核；</li>
+</ul>
+</li>
+<li><strong>什么叫优雅降级和渐进增强</strong><ul>
+<li>优雅降级：Web站点在所有新式浏览器中都能正常工作，如果用户使用的是老式浏览器，则代码会检查以确认它们是否能正常工作。由于IE独特的盒模型布局问题，针对不同版本的IE的hack实践过优雅降级了,为那些无法支持功能的浏览器增加候选方案，使之在旧式浏览器上以某种形式降级体验却不至于完全失效。</li>
+<li>渐进增强：从被所有浏览器支持的基本功能开始，逐步地添加那些只有新式浏览器才支持的功能,向页面增加无害于基础浏览器的额外样式和功能的。当浏览器支持时，它们会自动地呈现出来并发挥作用。</li>
+</ul>
+</li>
+</ol>
+
+      <p><img data-fancybox="gallery" src="https://i.dawnlab.me/53a8c7cf3ad77a0f0a456ce2c6afe88a.png"  alt="53a8c7cf3ad77a0f0a456ce2c6afe88a.png" data-caption="53a8c7cf3ad77a0f0a456ce2c6afe88a.png" loading="lazy"></p>
+  </article>
+
+  
+      
+    <div class="nexmoe-post-copyright">
+        <strong>Author：</strong>John Doe<br>
+        <strong>Link：</strong><a href="http://example.com/2022/06/30/HTML-CSS%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98/" title="http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;06&#x2F;30&#x2F;HTML-CSS%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;06&#x2F;30&#x2F;HTML-CSS%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98&#x2F;</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
     </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
     
-    <div class="nexmoe-post">
-        <a href="/2022/06/27/hello-world/">
-            
-                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 56.71874999999999%;"> 
-                    <img src="https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png" alt="Hello World" loading="lazy">
-                    <h1>Hello World</h1>
-                </div>
-            
-        </a>
-
-        <div class="nexmoe-post-meta nexmoe-rainbow">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2022年06月27日</a>
-            
-            
-            
-        </div>
-
-        <article>
-            
-        </article>
-    </div>
     
-</section>
+</div>
 
+  
+      <div class="nexmoe-post-footer">
+          请在你的配置文件中设置评论框插槽
+      </div>
+  
+</div>
             <div class="nexmoe-post-right">
               <div class="nexmoe-fixed">
                   <div class="nexmoe-tool"> 
@@ -340,6 +358,13 @@
                       
                         
                           
+                          
+                              <button class="mdui-fab catalog" style="overflow:unset;">
+                                  <i class="nexmoefont icon-i-catalog"></i>
+                                  <div class="nexmoe-toc">
+                                      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#HTML-CSS%E9%9D%A2%E8%AF%95%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text">HTML+CSS面试题</span></a></li></ol>
+                                  </div>
+                              </button>
                           
                           
                       
@@ -376,7 +401,7 @@
 
  
 
-<script async src="/js/app.js?v=1656593276075"></script>
+<script async src="/js/app.js?v=1656593276069"></script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
 
